@@ -11,7 +11,10 @@ public class HitungLuas {
 			luas = (float)(panajang*lebar);
 				System.out.println("luasnya adalah="+panjang*lebar);
 				//luas lingkaran
+<<<<<<< HEAD
 	Scanner input = new Scanner(System.in);
+=======
+>>>>>>> luaslingkaran
 	double phi = 3.14;
 	double r, luas1,keliling1;
 
@@ -22,6 +25,7 @@ r = input.nextDouble();
 luas1 = phi * r * r;
 keliling1 = 2 * phi * r;
 
+<<<<<<< HEAD
 System.out.println("Luas Lingkaran = " + (int)luas1 + " \nKeliling lingkaran = "+ (int)keliling1);
 //LUAS SEGITIGA
 int alas;
@@ -37,5 +41,8 @@ int alas;
    l = ((alas * tinggi)/2);
    System.out.println("Luas Segitiga = " +l);
 
+=======
+System.out.print("Luas Lingkaran = " + (int)luas1 + " \nKeliling lingkaran = "+ (int)keliling1);
+>>>>>>> luaslingkaran
 	 }
 	 }
